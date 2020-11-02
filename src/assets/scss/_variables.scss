@@ -1,0 +1,29 @@
+$primary-color: black;
+$secondary-color: lighten($primary-color, 40%);
+
+/* Bootstrap Overwrites */
+
+$theme-colors: (
+  'primary': $primary-color,
+  'success': rgb(4, 168, 122),
+  'warning': #f29f05,
+  'danger': #a6170a,
+  'text': white
+);
+
+$black: #000;
+$light-gray: #f7fafc;
+$lighter-gray: lighten(#f7fafc, 10%);
+$gray: #454545;
+
+$shadow-gray: rgba($black, 0.15);
+
+$body-bg: white;
+$body-color: $gray;
+
+$input-bg: rgb(238, 240, 242);
+
+$calendar-red: #d65415;
+
+$font-family-sans-serif: 'IBM Plex Sans Condensed', 'Helvetica Neue', sans-serif;
+$font-weight-bold: 500;

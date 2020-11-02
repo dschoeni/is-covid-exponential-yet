@@ -1,0 +1,15 @@
+@import '_variables';
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@400;500&display=swap');
+
+@import 'bootstrap/scss/bootstrap.scss';
+@import 'vue-multiselect/dist/vue-multiselect.min';
+
+html {
+  touch-action: manipulation;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

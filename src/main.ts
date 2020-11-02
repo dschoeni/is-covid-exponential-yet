@@ -1,8 +1,14 @@
 import Vue from "vue";
+import axios from "axios";
+import VueAxios from "vue-axios";
 import App from "./App.vue";
 import router from "./router";
 
+import "@/assets/scss/app.scss";
+
 Vue.config.productionTip = false;
+
+Vue.use(VueAxios, axios);
 
 new Vue({
   router,
